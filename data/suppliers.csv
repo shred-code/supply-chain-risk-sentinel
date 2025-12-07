@@ -1,0 +1,21 @@
+id,name,country,category,risk_tolerance_score
+1,Warren Ltd,Japan,Electronics,4
+2,Thompson-Aguilar,USA,Logistics,3
+3,"Rivers, Ashley and Daniels",USA,Raw Materials,3
+4,"Roberts, Henry and Fritz",Taiwan,Raw Materials,7
+5,Pollard-King,Ukraine,Electronics,2
+6,"Hill, Webster and Turner",Japan,Electronics,8
+7,"Brown, Taylor and Dorsey",Taiwan,Logistics,6
+8,"Boone, Perez and Mcpherson",Taiwan,Raw Materials,2
+9,"Williams, Hall and Edwards",Ukraine,Electronics,10
+10,Estrada and Sons,Japan,Raw Materials,7
+11,Whitehead-Sanchez,USA,Electronics,6
+12,Snyder LLC,Ukraine,Electronics,4
+13,Sanders-Carter,USA,Electronics,7
+14,Price-Williams,Taiwan,Logistics,8
+15,"Chapman, Wilson and Nelson",Japan,Electronics,5
+16,Rowe Inc,Ukraine,Electronics,7
+17,"Johnson, Garcia and Pierce",Taiwan,Electronics,7
+18,Anderson Ltd,Ukraine,Electronics,5
+19,"Baker, Torres and Thompson",USA,Logistics,9
+20,Kim-Mcdowell,Ukraine,Electronics,4
