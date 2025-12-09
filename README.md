@@ -1,27 +1,27 @@
-# 🛡️ Supply Chain Risk Sentinel
+# Supply Chain Risk Sentinel
 
 **An Agentic AI System for Real-Time Supply Chain Risk Monitoring & Analysis**
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Dashboard+Preview+Coming+Soon)
+![Dashboard Preview](assets/Risk_Dashboard.JPG)
 
-## 🚀 Overview
+## Overview
 
 Supply Chain Risk Sentinel is a cutting-edge **Agentic AI application** designed to monitor, analyze, and visualize global supply chain risks in real-time. Built with **LangGraph**, it orchestrates a team of specialized AI agents (Supervisor, Data Fetcher, Risk Analyst, Reporter) to autonomously gather intelligence from SQL databases, live news APIs, and financial markets.
 
 The system features a **"Control Room" style dashboard** that provides instant visibility into high-risk suppliers, regional disruptions, and financial trends, enabling proactive decision-making.
 
-## ✨ Key Features
+## Key Features
 
-*   **🤖 Multi-Agent Architecture**: Powered by **LangGraph**, utilizing a Supervisor-Worker pattern to route tasks dynamically.
-*   **🧠 Intelligent Risk Analysis**: A specialized **Risk Analyst Agent** correlates structured data (suppliers, shipments) with unstructured data (news, geopolitical events) to calculate real-time risk scores.
-*   **📊 Live Control Room Dashboard**: A premium, dark-mode UI built with **Next.js** featuring:
+*   **Multi-Agent Architecture**: Powered by **LangGraph**, utilizing a Supervisor-Worker pattern to route tasks dynamically.
+*   **Intelligent Risk Analysis**: A specialized **Risk Analyst Agent** correlates structured data (suppliers, shipments) with unstructured data (news, geopolitical events) to calculate real-time risk scores.
+*   **Live Control Room Dashboard**: A premium, dark-mode UI built with **Next.js** featuring:
     *   Real-time Risk Gauge with pulsing alerts.
     *   Interactive, glassmorphism-styled supplier cards.
     *   Automatic background scanning of monitored regions.
-*   **🔍 Vector Search Integration**: Uses **Qdrant** for semantic search over supplier contracts and unstructured documents.
-*   **🌐 Real-World Data Tools**: Integrated with **NewsAPI** and **ExchangeRate-API** for live external data fetching.
+*   **Vector Search Integration**: Uses **Qdrant** for semantic search over supplier contracts and unstructured documents.
+*   **Real-World Data Tools**: Integrated with **NewsAPI** and **ExchangeRate-API** for live external data fetching.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **AI Orchestration**: [LangChain](https://www.langchain.com/) & [LangGraph](https://langchain-ai.github.io/langgraph/)
 *   **LLM**: Google Gemini Pro & Flash
@@ -30,7 +30,7 @@ The system features a **"Control Room" style dashboard** that provides instant v
 *   **Database**: PostgreSQL (Structured Data), Qdrant (Vector Data)
 *   **Infrastructure**: Docker & Docker Compose
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph TD
@@ -50,7 +50,7 @@ graph TD
     Reporter --> FinalReport[Final Report]
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -113,10 +113,14 @@ graph TD
 7.  **Access the Dashboard**
     Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📸 Screenshots
+## Screenshots
 
-*(Add your screenshots here)*
+### Monitored Regions
+![Monitored Regions](assets/Monitored_regions.JPG)
 
-## 📄 License
+### Chat Interface
+![Chat Response](assets/Chat_response.JPG)
+
+## License
 
 MIT
